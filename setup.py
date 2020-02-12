@@ -16,7 +16,7 @@ __license__ = 'MIT License'
 project_name = 'spleeter'
 project_version = '1.4.9'
 tensorflow_dependency = 'tensorflow'
-tensorflow_version = '1.14.0'
+tensorflow_version = '1.15.0'
 here = path.abspath(path.dirname(__file__))
 readme_path = path.join(here, 'README.md')
 with open(readme_path, 'r') as stream:
@@ -53,7 +53,7 @@ setup(
         'ffmpeg-python',
         'importlib_resources ; python_version<"3.7"',
         'norbert==0.2.1',
-        'pandas==0.25.1',
+        'pandas==0.25.3',
         'requests',
         'setuptools>=41.0.0',
         '{}=={}'.format(tensorflow_dependency, tensorflow_version),
