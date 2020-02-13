@@ -53,7 +53,7 @@ setup(
         'ffmpeg-python',
         'importlib_resources ; python_version<"3.7"',
         'norbert==0.2.1',
-        'pandas==0.25.3',
+        'pandas==0.25.1',
         'requests',
         'setuptools>=41.0.0',
         '{}=={}'.format(tensorflow_dependency, tensorflow_version),
